@@ -6,7 +6,6 @@ categories.forEach(category => {
 console.log(`Category: ${category.firstElementChild.textContent}`);
 console.log(`Elements: ${category.querySelector("ul").children.length}`);
 
-//console.log(category.firstElementChild.nextElementSibling)
 }) 
 
 

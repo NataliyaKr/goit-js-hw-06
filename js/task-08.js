@@ -14,6 +14,7 @@ function submitHandler(event) {
             email: email.value,
             password: password.value,
         };
+        console.log(profile);
+        event.currentTarget.reset();
     }
-    event.currentTarget.reset();
 };
